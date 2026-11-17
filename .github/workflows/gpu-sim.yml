@@ -16,6 +16,8 @@ name: GPU Simulator
 # than 0.1% of N*N in total.
 
 on:
+  push:
+    branches: [verify-gpu-sim]
   workflow_dispatch:
   pull_request:
     paths:
